@@ -3,8 +3,6 @@ var par;
 var populasi = 20;
 var x = [8,4,5,2,1];
 
-
-
 function roulletewheel(n) {
 	sum = 0;
 	for (var i = 0; i < 5; i++) {
