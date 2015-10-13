@@ -17,5 +17,4 @@ function roulletewheel(n) {
 
 roulletewheel(n);
 
-	console.log("Kromosom ke-" + par + " terpilih menjadi Parent;)
-;
+	console.log("Kromosom ke-" + par + " terpilih menjadi Parent");
