@@ -1,20 +1,23 @@
-var n = Math.round((Math.random() * 100) + 1);
+var n = Math.round(Math.random() * 20);
 var par;
-if (n >= 0 && n <= 20) {
-    par = "Parent 1";
+var populasi = 20;
+var x = [8,4,5,2,1];
+
+
+
+function roulletewheel(n) {
+	sum = 0;
+	for (var i = 0; i < 5; i++) {
+		sum += x[i];
+		if (n < sum){
+			par = i + 1;;
+			break;
+		}
+
+	}
 }
 
-if (n >= 21 && n <= 60) {
-    par = "Parent 2";
-}
+roulletewheel(n);
 
-if (n >= 61 && n <= 80) {
-    par = "Parent 3";
-}
-
-if (n >= 81 && n <= 100) {
-    par = "Parent 4";
-}
-
-
-console.log(par);
+	console.log("Kromosom ke-" + par + " terpilih menjadi Parent;)
+;
